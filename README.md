@@ -213,6 +213,8 @@ plt.show()
 ```
 Here we generate the plot of RMSE and the number of the principle components. We realized that $n = 6$ is already sufficient for testing dataset, with Train RMSE as 194.06, and Test RMSE 191.88.
 
+![PCR](https://github.com/joshuajacobs2020/AirbnbPricePrediction/blob/main/Figures/pcrtable.png?raw=true)
+
 ## PLS
 Along with PCR, we also utilized a PLS regression to our training data. First, the predictors were standardized in pipeline, then the optimal number of components for PLS was found through k=5 folds cross-validation. The model was refit using the optimal number of components and the training and test RMSE were found.
 
