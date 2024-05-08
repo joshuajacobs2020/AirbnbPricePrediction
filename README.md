@@ -42,7 +42,7 @@ Each Airbnb observation comes with a unique name created by the host. These ofte
 3. Use PCA to reduce the dummy variables to 6 features
 
 This setup is also shown in the `Data_Cleaning_Kaggle_Data.ipynb` file. Below is the code used to perform the dimension reduction.
-"""
+
 ```
 # Make array of values and reduce dimensionality with PCR
 text_array = np.array(airbnb_text.drop(["id","name","price","filtered_text"],axis=1))
